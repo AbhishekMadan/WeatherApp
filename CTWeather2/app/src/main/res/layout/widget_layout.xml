@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/widget_curve_drawable">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:text="@string/widget_city_name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:id="@+id/widget_current_date_textview"
+        android:text="--/--/----"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0c0bcf">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/widget_weather_thumbnail_imageview"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/img_01d"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textColor="#fff"
+        android:id="@+id/widget_temperature_textview"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:text="-- --"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/widget_weather_thumbnail_imageview"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="25sp"
+            android:text="----- ------"
+            android:textColor="#fff"
+            android:id="@+id/widget_weather_description"
+            android:layout_toRightOf="@id/widget_temperature_textview"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayout"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:indeterminate="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:text="CTWeather"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:id="@+id/error_notification"
+        android:textColor="@android:color/black"
+        android:textAllCaps="false"
+        android:text="Error connecting to Internet"
+        android:padding="20dp"
+        android:background="@drawable/dark_border"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

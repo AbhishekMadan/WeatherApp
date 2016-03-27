@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CTWeather</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="close">Drawer Close</string>
+    <string name="open">Drawer Open</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="forcast_detail">Forcast Detail</string>
+    <string name="favorite">favorite city</string>
+    <string name="widget_city_name">NAGPUR, INDIA</string>
+    <array name="tab_list">
+        <item>CURRENT WEATHER</item>
+        <item>DAILY FORECAST</item>
+    </array>
+</resources>
